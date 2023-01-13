@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/settings_menu_item"
+        android:title="@string/menu_item_settings"
+        android:icon="@drawable/ic_baseline_settings_24" />
+    <item
+        android:id="@+id/help_menu_item"
+        android:title="@string/menu_item_help"
+        android:icon="@drawable/ic_baseline_help_24"
+        />
+</menu>
