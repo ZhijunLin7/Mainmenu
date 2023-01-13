@@ -51,22 +51,18 @@ public class MainActivity extends AppCompatActivity {
                 String strText = textView.getText().toString();
                 if (strText.equalsIgnoreCase(getResources().getString(
                         R.string.menu_item_play))) {
-                    textView.setBackground(getDrawable(R.drawable.selector));
                     startActivity(new Intent(MainActivity.this,
                             Game.class));
                 } else if (strText.equalsIgnoreCase(getResources().getString(
                         R.string.menu_item_help))) {
-                    textView.setBackground(getDrawable(R.drawable.selector));
                     startActivity(new Intent(MainActivity.this,
                             Help.class));
                 } else if (strText.equalsIgnoreCase(getResources().getString(
                         R.string.menu_item_settings))) {
-                    textView.setBackground(getDrawable(R.drawable.selector));
                     startActivity(new Intent(MainActivity.this,
                             Setting.class));
                 } else if (strText.equalsIgnoreCase(getResources().getString(
                         R.string.menu_item_scores))) {
-                    textView.setBackground(getDrawable(R.drawable.selector));
                     startActivity(new Intent(MainActivity.this,
                             Score.class));
                 }

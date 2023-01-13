@@ -40,9 +40,10 @@
         android:layout_below="@id/maintitle"
         android:layout_marginTop="10dp"
         android:divider="@drawable/separator"
-        android:dividerHeight="2dp"
+        android:dividerHeight="4dp"
         android:layout_marginLeft="4dp"
         android:layout_marginRight="4dp"
+        android:listSelector="@drawable/selector"
        />
 
     <ImageView
